@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Inter;
+}
+
+/*navbar*/
+#navbar{
+    background: #000000;
+    position: absolute;
+    width: 100%;
+}
+.navlist-left{
+    color: #FFFFFF;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.navlist-right a{
+    color: #FFFFFFB2;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    padding: 12px;
+}
+.navlist-right{
+    float: right;
+    padding-bottom: 20px;
+}
+#navbar a:hover{
+    background-color: #ddd;
+    color: #000000;
+}
+/*home*/
+#heading{
+    font-family: Inter;
+font-size: 80px;
+font-weight: 400;
+line-height: 97px;
+letter-spacing: 0em;
+text-align: left;
+width: 386px;
+height: 97px;
+top: 138px;
+left: 62px;
+}
+p{
+    width: 762px;
+    height: 36px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 72px;
+    margin-top: 80px !important;
+}
+.btn{
+    width: 205px;
+    height: 56px;
+}
+img{
+    width: 1000px;
+    height: 760px;
+    margin-left: 550px !important;
+}
+
+/*login and signup*/
+#signup{
+    margin-left: 80px !important;
+}
+#login{
+    margin-left: 80px !important;
+}
+/*profile*/
+h2{
+    text-align: center;
+}
+input{
+    display: flex;
+    width: 1260px;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: 80px !important;
+    padding-left: 20px;
+}
+button{
+    background-color: #000000;
+    color: white;
+    width: 276px;
+    height: 50px;
+    margin-left: 80px !important;
+}
